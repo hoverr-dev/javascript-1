@@ -1,23 +1,13 @@
-// Операторы присваивания
+const isSuited = 100 - 10 > 90 - 5;
+console.log(isSuited);
 
-let age = 18 + 5;
+// 100 - (12) 10 > (10) 90 - (12) 5
 
-age += 2; // age = age + 2;
-age -= 2; // age = age - 2;
-age *= 2; // age = age * 2;
-age /= 2; // age = age / 2;
+const a = (6 + 10) / 2;
+console.log(a);
 
-age++; // age = age + 1;
-age--; // age = age - 1;
-
-console.log(age);
-
-// Операторы сравнения
-
-const vasya = 20;
-
-console.log(age > vasya);
-console.log(age >= vasya);
-console.log(age < vasya);
-console.log(age <= vasya);
-console.log(age == vasya);
+let b;
+let c;
+c = b = 100 + 50 + 30;
+console.log(c);
+console.log(b);
